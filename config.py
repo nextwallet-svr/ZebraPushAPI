@@ -1,6 +1,6 @@
 import os
 
-CURR_NET = os.getenv("NETWORK", "test")
+CURR_NET = os.getenv("ZPUSH_NETWORK", "test")
 PUSH_SERVER = {
     "test": {
         "root_url": "http://testapi.zebrablocklabs.com:5100/",
