@@ -1,1 +1,1 @@
-from .push_client import internal
+from .push_client import zpush

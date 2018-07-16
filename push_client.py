@@ -87,4 +87,4 @@ class InternalServiceCall:
 
 # initiate the object
 concrete_config = config.get_config()
-internal = InternalServiceCall(concrete_config)
+zpush = InternalServiceCall(concrete_config)
