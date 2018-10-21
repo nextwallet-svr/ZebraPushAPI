@@ -7,7 +7,7 @@ PUSH_SERVER = {
         "timeout": 10
     },
     "main": {
-        "root_url": "http://dev.zebrablocklabs.com:5100/",
+        "root_url": os.getenv("ZPUSH_URL", "http://dev.zebrablocklabs.com:5100/"),
         "timeout": 10
     }
 }
